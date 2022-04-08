@@ -1,0 +1,47 @@
+body {
+background-color: #EEF9BF;
+font-family: 'Roboto', sans-serif;
+}
+.site .nome {
+    color: #75B79E;
+    font-weight: 700;
+    font-size: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    padding-top: 40px;
+}
+.site .jogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    padding-top: 47px;
+    padding-right: 146px;
+    padding-bottom: 153px;
+    padding-left: 122px;
+    
+    gap: 34px;
+}
+.site .jogo .carta {
+    background-color: #A7E9AF;
+    
+    border-radius: 5px;
+    border: 1px solid #99CEA8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 117px;
+    height: 146px;
+
+}
+.site .jogo .carta img {
+    width: 100px;
+    height: 100px;
+}
