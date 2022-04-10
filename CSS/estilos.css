@@ -6,6 +6,7 @@ font-family: 'Roboto', sans-serif;
     color: #75B79E;
     font-weight: 700;
     font-size: 56px;
+    text-align: center;
 
     display: flex;
     justify-content: center;
@@ -44,4 +45,7 @@ font-family: 'Roboto', sans-serif;
 .site .jogo .carta img {
     width: 100px;
     height: 100px;
+}
+.escondido {
+    display: none;
 }
