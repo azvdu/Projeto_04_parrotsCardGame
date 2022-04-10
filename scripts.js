@@ -17,7 +17,7 @@ let numeroDeCartas = 0
 setTimeout(colocarCartas, 100)
 
 function colocarCartas () {
-    numeroDeCartas = prompt("Com quantas cartas você quer jogar?")
+    numeroDeCartas = prompt("Com quantas cartas você quer jogar? OBS.: Escolha um número de 4 à 14, que seja par!")
     if (numeroDeCartas % 2 == 0 && numeroDeCartas >= 4 && numeroDeCartas <= 14) {
         let jogo = document.querySelector(".jogo")
         for (let i = 0; i < (numeroDeCartas/2); i++){
