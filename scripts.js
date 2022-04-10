@@ -14,6 +14,7 @@ function embaralhar () {
 
 let cartas = []
 let numeroDeCartas = 0
+setTimeout(colocarCartas, 100)
 
 function colocarCartas () {
     numeroDeCartas = prompt("Com quantas cartas você quer jogar?")
@@ -41,7 +42,7 @@ function colocarCartas () {
     } else {
         colocarCartas ()
     }
-} colocarCartas()
+} //colocarCartas()
 
 let frentes = []
 let versos = []
